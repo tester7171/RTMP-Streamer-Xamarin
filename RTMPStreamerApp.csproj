@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>monoandroid13.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RTMPStreamerApp</RootNamespace>
+    <ApplicationTitle>RTMP Streamer</ApplicationTitle>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidSupportedAbis>armeabi-v7a;arm64-v8a;x86;x86_64</AndroidSupportedAbis>
+    <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.Camera.Camera2" Version="1.1.0" />
+    <PackageReference Include="Xamarin.AndroidX.Camera.Lifecycle" Version="1.1.0" />
+    <PackageReference Include="Xamarin.AndroidX.Camera.View" Version="1.1.0" />
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.7.0" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.4.0" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModel" Version="2.4.0" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.4.2" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>
